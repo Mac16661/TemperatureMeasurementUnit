@@ -1,6 +1,3 @@
-# build clean
-make clean
-
 # build
 make
 
