@@ -14,14 +14,10 @@ TemperatureMeasurementUnit:	Wires everything together, starts all threads, lets 
 
 # How to Build and Run:
 
-build clean
-make clean
+build clean: make clean
 
-build
-make
+build: make
 
-run the simulation
-make run
+run: make run
 
-remove build artifacts
-make clean
+remove build artifacts: make clean
